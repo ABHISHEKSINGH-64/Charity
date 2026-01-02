@@ -1,16 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/charitee.css">
-    <style>
-        *{
+   <link rel="stylesheet" href="css/style.css">
+   <style>  
+            *{
     margin:0;
     padding:0;
 }
-
+   a {
+        text-decoration: none;
+    }
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -72,10 +75,18 @@
     padding-bottom: 5px;
 }
 
-#navigation p:hover{
-    border-bottom: 1px solid white;
-    cursor: pointer;
+#navigation a {
+    text-decoration: none;
+    color: #65C9BB;
 }
+
+#navigation a:hover {
+    text-decoration: none;  
+    border-bottom: none;     
+    color: white;            
+}
+
+
 
 #content_1{
     height: 550px;
@@ -505,9 +516,7 @@
     background-color: #cd201f;
 }
 
-.social-icon:hover {
-    opacity: 0.8;
-}
+
 
 .footer-section h3 {
     font-size: 22px;
@@ -549,10 +558,6 @@
     margin-bottom: 25px;
 }
 
-.social-icon:hover {
-    transform: rotateY(180deg);
-    transition: 0.7s;
-}
 
 .footer-section a {
     color: white;
@@ -593,7 +598,7 @@
 hr {
     margin: 0px 100px;
 }
-    </style>
+   </style>
 </head>
 <body>
      <div>   
@@ -601,15 +606,15 @@ hr {
              <div id="navbar">
                  <div id="header">
                      <div id="logo">
-                         <img src="/assets/logo.png.webp">
+                         <img src="assets/logo2_footer.png.webp">
                      </div>
                      <div id="navigation">
-                         <p><a href="/pages/chariteewebsite.html">Home</a></p>
-                         <p><a href="/pages/who_we_are.html">Who We Are?</a></p>
-                         <p><a href="/pages/programs.html">Programs</a></p>
-                         <p><a href="/pages/about.html">About</a></p>
-                         <p><a href="/pages/blog.html">Blog</a></p>
-                         <p><a href="/pages/contact.html">Contact Us</a></p>
+                         <a href="/pages/chariteewebsite.html">Home</a>
+                         <a href="/pages/who_we_are.html">Who We Are?</a>
+                         <a href="/pages/programs.html">Programs</a>
+                         <a href="/pages/about.html">About</a>
+                         <a href="/pages/blog.html">Blog</a>
+                         <a href="/pages/contact.html">Contact Us</a>
                      </div>
                  </div>
                  <div id="contact">
@@ -760,15 +765,10 @@ hr {
         <div id="footer"> 
             <div class="footer-container">
             <div class="footer-section">
-                <img src="/assets/logo.png.webp">
+                <img src="assets/logo2_footer.png.webp">
                 <p class="footer-description">When a child gets access to good food, it can change just about everything.
                     Sed do eiusmod tempor incididunt dolore magna aliqua.</p>
-                <div class="social-icons">
-                    <a href="index.html" class="social-icon facebook">f</a>
-                    <a href="index.html" class="social-icon linkedin">in</a>
-                    <a href="index.html" class="social-icon instagram">📷</a>
-                    <a href="index.html" class="social-icon youtube">▶</a>
-                </div>
+               
             </div>
         
             <div class="footer-section">
@@ -804,4 +804,4 @@ hr {
         </div>
     </div>
 </body>
-</html> 
+</html>
