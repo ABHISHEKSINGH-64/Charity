@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                    *{
+    margin:0;
+    padding:0;
+}
+   a {
+        text-decoration: none;
+    }
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: white;
+}
+
+#header{
+    display: flex;
+    gap: 70px;
+}
+
+#logo{
+    margin-top: 18px;
+    margin-left: 40px;
+}
+
+#contact {
+    display: flex;
+    gap: 40px;
+    margin: 10px 30px;
+}
+
+#navigation{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+#contact button{
+    background-color: rgb(220, 79, 28);
+    border: 2px solid rgb(220, 79, 28);
+    padding: 20px 40px;
+    color: white;
+    font-weight:100;
+}
+
+#contact button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+ 
+#contact p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+#firstdiv{
+    background-image: url(/assets/h2_hero1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+#number {
+    border-bottom: 3px dotted white;
+    padding-bottom: 5px;
+}
+
+
+#navigation a {
+    color: white;              
+    text-decoration: none;     
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+#navigation a:hover {
+    color: #65C9BB;            
+    text-decoration: none;     
+}
+#content_2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 150px
+}
+#sta1{
+    font-size: 40px;
+    font-family: Jost,sans-serif;
+    color: #fff;
+    margin: 140px 80px 60px 120px ;
+}
+
+.middle{
+    color: #65C9BB;
+    font-size: 16px;
+    font-family: Rubik,sans-serif;
+    margin: 40px 0px 40px 0px;
+}
+.ongoing{
+    font-size: 43px;
+    color: #263B5C;
+    font-family: jost,sans-serif;
+    margin: 40px 0px 40px 0px;
+}
+    </style>
+</head>
+<body>
+    <div>
+         <div id="firstdiv">
+             <div id="navbar">
+                 <div id="header">
+                     <div id="logo">
+                         <img src="assets/logo2_footer.png.webp">
+                     </div>
+                     <div id="navigation">
+                         <a href="home.html">Home</a>
+                         <a href="who we are.html">Who We Are?</a>
+                         <a href="program.html">Programs</a>
+                         <a href="/pages/about.html">About</a>
+                         <a href="/pages/blog.html">Blog</a>
+                         <a href="/pages/contact.html">Contact Us</a>
+                     </div>
+                 </div>
+                 <div id="contact">
+                     <p>Call Us : <span id="number">9865812453</span></p>
+                     <button>🤍 Make a Donation</button>
+                 </div>
+             </div>
+             <div id="content_1">
+                <div>
+                    <h1 id="sta1">Programs</h1>
+                </div>
+                
+             </div>
+        </div>
+          <div >
+            <span id="middle">Programs</span>
+            <h2 id="ongoing">Ongoing Programs</h2>
+          </div>
+    </div>
+</body>
+</html>
