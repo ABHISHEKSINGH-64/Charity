@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+                     *{
+    margin:0;
+    padding:0;
+}
+   a {
+        text-decoration: none;
+    }
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: white;
+}
+
+#header{
+    display: flex;
+    gap: 70px;
+}
+
+#logo{
+    margin-top: 18px;
+    margin-left: 40px;
+}
+
+#contact {
+    display: flex;
+    gap: 40px;
+    margin: 10px 30px;
+}
+
+#navigation{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+#contact button{
+    background-color: rgb(220, 79, 28);
+    border: 2px solid rgb(220, 79, 28);
+    padding: 20px 40px;
+    color: white;
+    font-weight:100;
+}
+
+#contact button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+ 
+#contact p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+#firstdiv{
+    background-image: url(/assets/h2_hero1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+#number {
+    border-bottom: 3px dotted white;
+    padding-bottom: 5px;
+}
+
+
+#navigation a {
+    color: white;              
+    text-decoration: none;     
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+#navigation a:hover {
+    color: #65C9BB;            
+    text-decoration: none;     
+}
+#content_2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 150px
+}
+#sta1{
+    font-size: 40px;
+    font-family: Jost,sans-serif;
+    color: #fff;
+    margin: 140px 80px 60px 120px ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    color: #777;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+    padding: 1100px 0;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+}
+
+/* FORM */
+.contact-form {
+    flex: 3;
+}
+
+.contact-form h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #1f3b63;
+}
+
+.contact-form textarea,
+.contact-form input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    font-family: inherit;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.send-btn {
+    background: transparent;
+    border: 1px solid #65c9bb;
+    color: #65c9bb;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    flex: 1;
+}
+
+.info-box {
+    margin-bottom: 40px;
+}
+
+.info-box h4 {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    color: #1f3b63;
+    margin-bottom: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <div id="firstdiv">
+             <div id="navbar">
+                 <div id="header">
+                     <div id="logo">
+                         <img src="assets/logo2_footer.png.webp">
+                     </div>
+                     <div id="navigation">
+                         <a href="home.html">Home</a>
+                         <a href="who we are.html">Who We Are?</a>
+                         <a href="program.html">Programs</a>
+                         <a href="about.html">About</a>
+                         <a href="blog.html">Blog</a>
+                         <a href="contact us.html">Contact Us</a>
+                     </div>
+                 </div>
+                 <div id="contact">
+                     <p>Call Us : <span id="number">9865812453</span></p>
+                     <button>🤍 Make a Donation</button>
+                 </div>
+             </div>
+             <div id="content_1">
+                <div>
+                    <h1 id="sta1">About Us</h1>
+                </div>
+                
+             </div>
+        </div>
+
+
+          <section class="contact-section">
+    <div class="contact-container">
+
+        <!-- LEFT FORM -->
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+
+            <textarea placeholder="Enter Message"></textarea>
+
+            <div class="row">
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter email address">
+            </div>
+
+            <input type="text" placeholder="Enter Subject">
+
+            <button class="send-btn">SEND</button>
+        </div>
+
+        <!-- RIGHT INFO -->
+        <div class="contact-info">
+            <div class="info-box">
+                <h4>Buttonwood, California.</h4>
+                <p>Rosemead, CA 91770</p>
+            </div>
+
+            <div class="info-box">
+                <h4>+1 253 565 2365</h4>
+                <p>Mon to Fri 9am to 6pm</p>
+            </div>
+
+            <div class="info-box">
+                <h4>support@colorlib.com</h4>
+                <p>Send us your query anytime!</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+    </div>
+</body>
+</html>
